@@ -1,10 +1,8 @@
-// Modules to control application life and create native browser window
+// 控制应用程序生命周期和创建本机浏览器窗口的模块
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
 
-// Keep a global reference of the window object, if you don't, the window will
-// be closed automatically when the JavaScript object is garbage collected.
-let mainWindow
+// 保留窗口对象的全局引用，如果不保留，则窗口将 当JavaScript对象被垃圾收集时自动关闭。
 
 function createWindow () {
   // Create the browser window.
